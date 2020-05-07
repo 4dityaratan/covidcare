@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <i class="fas fa-arrow-alt-circle-up fa-2x"></i>
+        </button>
+    <!--back to top button 0000000000000000000000000000-->
+    <!--navbar-->
+
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark" style="background-color:rgb(84, 63, 229) !important;">
+        <a class="navbar-brand ml-3" href="#">
+            <span style="font-size: 200%; color: #fff;"><img style="height:5vh;" src="logo.jpg"><span style="font-weight: 900;">Covid</span>Care</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mt-2  ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link mr-md-4" href="#" style="color: white !important;">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mr-md-4" href="#stats" tabindex="-1" style="color: white !important;">Stats</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mr-md-4" href="#news" tabindex="-1" style="color: white !important;">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mr-md-4" href="#charts" tabindex="-1" style="color: white !important;">Charts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mr-md-4" href="#contact" tabindex="-1" style="color: white !important;">Contact</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+
+
+
+    <section class="background" style="position: relative; color: white;">
+        <img style="height: 100vh;width: 100vw;" src="back2.jpg" alt="img" srcset="">
+        <div style="position: absolute; top: 15%; left: 10%;line-height: 0 !important;">
+
+            <h1 style="font-weight: 700;font-size: 7vw;">What is Covid19</h1>
+            <h6 class="lead" style="font-size: 2.5vw;">Coronavirus disease (COVID-19) is an infectious disease<br> caused by a newly discovered coronavirus.</h6>
+        </div>
+
+    </section>
+    <div class="container">
+
+
+    </div>
+
+    <section id="stats" class="container">
+        <br>
+        <br>
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <div class="elfsight-app-1f356cc8-4648-4eef-bd74-5baff839f97a"></div>
+
+
+    </section>
+
+    <br>
+
+
+
+
+    </div>
+
+    <div id="news">
+        <br>
+        <br>
+        <h1 style="text-align: center; font-weight: 900; font-size: 7vw; text-decoration: underline;
+        font-family:'Times New Roman', Times, serif;">NEWS</h1>
+        <br>
+        <div id="result" class="container">
+            <div id="message"></div>
+        </div>
+    </div>
+
+    <div id="charts" class="container">
+        <iframe src="https://public.domo.com/cards/bWxVg" width="100%" height="600" marginheight="0" marginwidth="0" frameborder="0"></iframe>
+        <!-- <iframe src="https://public.domo.com/cards/eEY5N" width="100%" height="600" marginheight="0" marginwidth="0" frameborder="0"></iframe>
+        <iframe src="https://public.domo.com/cards/aMk4Q" width="100%" height="600" marginheight="0" marginwidth="0" frameborder="0"></iframe> -->
+        <iframe src="https://public.domo.com/cards/epNEr" width="100%" height="600" marginheight="0" marginwidth="0" frameborder="0"></iframe>
+    </div>
+
+    <section id="contact" style="background-color: rgb(84, 63, 229); color: white; font-size: 1.5vw;">
+        <footer style="padding-top:30px;">
+            <div class="mx-5" style="text-align:justify;">
+                <p>All views expressed on this site belong to the author of the referenced articles and do not represent the opinions of developer in any manner. CovidCare website is a platform that aggregates facts, updates and news from various established
+                    and credible sources COVID-19. None of the articles linked on the website are our own, and the users of the website should check the facts at their own discretion. Developer accepts no liability for any damage caused by the resources,
+                    articles and facts presented on this website or with any data from COVID-19.</p>
+            </div>
+            <div class="row" style="text-align: center;">
+                <div class="col" style="font-size: 125%;">
+                    <div style="text-decoration: underline;">More Articles</div>
+
+                    <div><a class="linkModified" style="text-decoration: none; color: white;" href="https://en.wikipedia.org/wiki/COVID-19_pandemic">Deep Dive (WIKI)</a>
+                    </div>
+
+                    <div><a class="linkModified" style="text-decoration: none; color: white;" href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019">World Health Organisation (WHO)</a>
+                    </div>
+
+                    <div><a class="linkModified" style="text-decoration: none; color: white;" href="https://en.wikipedia.org/wiki/COVID-19_pandemic">Deep Dive</a>
+                    </div>
+                </div>
+
+                <div class="col" style="font-size: 125%;">
+                    <div style="text-decoration: underline;">Contact Developer</div>
+                    <div><a class="linkModified" style="text-decoration: none; color: white;" href="https://github.com/4dityaratan">Github</a>
+                    </div>
+
+                    <div><a class="linkModified" style="text-decoration: none; color: white;" href="https://www.linkedin.com/in/adityaratan/">LinkedIn</a>
+                    </div>
+
+                    <div>+91 9450056176
+                    </div>
+                </div>
+            </div>
+            <p style="text-align:center;font-size: 2vw; margin-top: 50px; ">Copyright &copy; 2020 Made By ADITYA RATAN</p>
+            <hr style="width: 50vw; color: white !important;">
+            <br>
+        </footer>
+
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
