@@ -1,6 +1,6 @@
 const result = document.getElementById('result');
 const message = document.querySelector('#message');
-var url = 'http://newsapi.org/v2/everything?q=coronavirus&sortBy=publishedAt&pageSize=50&language=en&apiKey=df3d03fe7c7c49dd8ebf28a4ea7b9568';
+var url = 'http://newsapi.org/v2/everything?q=coronavirus&sortBy=publishedAt&pageSize=50&language=en&apiKey=149aaf7ae1624f5bb4f6c17d82abecfb';
 var req = new Request(url);
 fetch(req)
     .then(response => response.json())
